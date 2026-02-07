@@ -1,8 +1,11 @@
 /* ==================== VARIÁVEIS ==================== */
 :root {
-    --cor-primaria: #1e40af;      /* Azul industrial */
-    --cor-secundaria: #3b82f6;    /* Azul claro */
-    --cor-destaque: #059669;      /* Verde (disponível) */
+    --cor-primaria: #1e40af;
+    /* Azul industrial */
+    --cor-secundaria: #3b82f6;
+    /* Azul claro */
+    --cor-destaque: #059669;
+    /* Verde (disponível) */
     --cor-texto: #1f2937;
     --cor-texto-claro: #6b7280;
     --cor-fundo: #ffffff;
@@ -27,7 +30,8 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     line-height: 1.6;
-    padding-bottom: 100px; /* Espaço para os botões flutuantes não cobrirem conteúdo */
+    padding-bottom: 100px;
+    /* Espaço para os botões flutuantes não cobrirem conteúdo */
 }
 
 .container {
@@ -45,7 +49,8 @@ body {
     transform: translateX(-50%);
     display: flex;
     gap: 15px;
-    z-index: 9999; /* Fica acima de TUDO */
+    z-index: 9999;
+    /* Fica acima de TUDO */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 50px;
@@ -251,8 +256,15 @@ body {
 }
 
 @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
 }
 
 .profile-img {
@@ -648,7 +660,8 @@ body {
 /* Botão Voltar ao Topo */
 .back-to-top {
     position: fixed;
-    bottom: 100px; /* Acima dos botões flutuantes */
+    bottom: 100px;
+    /* Acima dos botões flutuantes */
     right: 30px;
     width: 50px;
     height: 50px;
@@ -689,27 +702,39 @@ body {
 
 /* ==================== RESPONSIVIDADE ==================== */
 @media (max-width: 768px) {
+
     /* Ajusta botões flutuantes no mobile */
     .botoes-flutuantes {
-        bottom: 10px;
-        padding: 8px;
-        gap: 10px;
-        width: 95%;
-        justify-content: center;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 15px;
+        z-index: 9999;
+        /* Fica acima de TUDO */
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 50px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
     }
-    
+
     .btn-flutuante {
-        padding: 10px 16px;
-        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.80rem;
+        transition: all 0.3s;
+        white-space: nowrap;
     }
-    
-    .btn-flutuante span {
-        display: none; /* Esconde texto no mobile, mostra só ícone */
-    }
-    
+
     .btn-flutuante i {
-        font-size: 1.5rem;
-        margin: 0;
+        font-size: 0.9rem;
     }
 
     /* Navegação mobile */
@@ -767,12 +792,12 @@ body {
     .section-title {
         font-size: 1.8rem;
     }
-    
+
     /* Ajusta padding do body para não cobrir conteúdo com botões */
     body {
         padding-bottom: 80px;
     }
-    
+
     /* Ajusta botão voltar ao topo */
     .back-to-top {
         bottom: 90px;
