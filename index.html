@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moisés Marques Pereira</title>
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== BOTÕES FLUTUANTES FIXOS ==================== -->
+    <!-- Estes botões ficam fixos na tela, sobrepondo todo o conteúdo -->
+    <div class="botoes-flutuantes">
+        <a href="https://wa.me/5511999999999?text=Olá!%20Vi%20seu%20currículo%20online%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." 
+           target="_blank" 
+           class="btn-flutuante btn-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span>Falar no WhatsApp</span>
+        </a>
+        
+        <a href="curriculo.pdf" 
+           download 
+           class="btn-flutuante btn-curriculo">
+            <i class="fas fa-file-pdf"></i>
+            <span>Baixar Currículo</span>
+        </a>
+    </div>
+
+    <!-- ==================== NAVEGAÇÃO ==================== -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Moisés Marques Pereira</a>
+            
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+                <li><a href="#qualificacoes">Qualificações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <!-- Menu Mobile -->
+            <div class="hamburguer" id="hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Buscando Emprego</p>
+                <h1 class="hero-title">Moisés Marques Pereira</h1>
+                <h2 class="hero-job">Busco emprego nas áreas onde adquiro experiência</h2>
+                
+                <p class="hero-description">
+                    Profissional dedicado, proativo e com grande disposição para aprender cada vez mais. 
+                    Busco oportunidade nas áreas, referente as minhas qualificações para desenvolver 
+                    minha carreira e contribuir com o crescimento profissional.
+                </p>
+
+                <div class="hero-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Manaus</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>48 anos</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Ensino Médio Completo</span>
+                    </div>
+                </div>
+
+                <div class="disponibilidade-hero">
+                    <span class="status-dot"></span>
+                    <strong>Disponível para início imediato</strong>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="imagens/eu.png" alt="Sua Foto" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SOBRE MIM ==================== -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p>
+                        Sou uma pessoa <strong>comprometida, pontual e com facilidade para trabalhar em equipe</strong>. 
+                        Tenho grande interesse em ingressar no ramo profissional e estou disposto a 
+                        aprender todas as atividades conforme as funções designadas.
+                    </p>
+                    
+                    <!-- <div class="dado-item">
+                        <span class="dado-label">Disponibilidade:</span>
+                        <span class="dado-valor destaque">Horário comercial, incluindo turnos, 
+                        de segunda a sábado, (manhã, tarde, noite) e horas-extras quando necessário.
+                    </div> -->
+
+                    <div class="destaque-box">
+                        <h3><i class="fas fa-star"></i> Por que me contratar?</h3>
+                        <ul>
+                            <li>Tenho experiência - sem vícios, pronto para me adaptar ao ambiente de trabalho</li>
+                            <li>Alta disposição para os cargos e funções quando necessário</li>
+                            <li>Facilidade de compreensão e atenção aos detalhes</li>
+                            <li>Compromisso com segurança e normas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dados-pessoais">
+                    <h3>Dados Pessoais</h3>
+                    
+                    <div class="dado-item">
+                        <span class="dado-label">Nome:</span>
+                        <span class="dado-valor">Moisés Marques Pereira</span>
+                    </div>
+                    
+                    <div class="dado-item">
+                        <span class="dado-label">Idade:</span>
+                        <span class="dado-valor">48 anos</span>
+                    </div>
+                    
+                    <div class="dado-item">
+                        <span class="dado-label">Estado Civil:</span>
+                        <span class="dado-valor">Solteiro (a)</span>
+                    </div>
+                    
+                    <div class="dado-item">
+                        <span class="dado-label">Escolaridade:</span>
+                        <span class="dado-valor">Ensino Médio Completo</span>
+                    </div>
+                    
+                    <!-- <div class="dado-item">
+                        <span class="dado-label">CNH:</span>
+                        <span class="dado-valor">Categoria B (se tiver)</span>
+                    </div> -->
+                    
+                    <div class="dado-item">
+                        <span class="dado-label">Bairro:</span>
+                        <span class="dado-valor">Cidade Nova 2></div></span>
+                    </div>
+                    
+                    <!-- <div class="dado-item">
+                        <span class="dado-label">Disponibilidade:</span>
+                        <span class="dado-valor destaque">Horário comercial, incluindo turnos, 
+                        de segunda a sábado, (manhã, tarde, noite) e horas-extras quando necessário.
+                    </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== OBJETIVO PROFISSIONAL ==================== -->
+    <section class="objetivo section" id="objetivo">
+        <div class="container">
+            <h2 class="section-title">Objetivo Profissional</h2>
+            
+            <div class="objetivo-content">
+                <div class="objetivo-card">
+                    <i class="fas fa-industry"></i>
+                    <h3>Cargo Desejado</h3>
+                    <p>Operador de Máquinas de Injeção Plástica ou Prensa, Auxiliar de Produção, 
+                     Auxiliar de Linha de Produção, Informática, Digitador, Auxiliar de Redes</p>
+                </div>
+
+                <div class="objetivo-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Localização</h3>
+                    <p>Manaus/Amazonas. 
+                       Tenho fácil acesso de transporte público.</p>
+                </div>
+
+                <div class="objetivo-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Disponibilidade</h3>
+                    <p>Horario comercial, incluindo turnos, de segunda a sábado, (manhã, tarde, noite) 
+                       e horas-extras quando necessário.</p>
+                </div>
+            </div>
+
+            <div class="carta-apresentacao">
+                <h3>Carta de Apresentação</h3>
+                <p>
+                    "Prezados recrutadores, busco uma oportunidade no mercado de trabalho. Embora eu já tenha experiência, mesmo assim, passo a me <strong>dedicar totalmente, 
+                    com um aprendizado rápido e comprometimento</strong> com as tarefas. Estou preparado para 
+                    iniciar essa nova etapa, seguir rigorosamente os procedimentos e contribuir 
+                    positivamente com a equipe. Aguardo a oportunidade de uma entrevista 
+                    para demonstrar meu potencial."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== QUALIFICAÇÕES ==================== -->
+    <section class="qualificacoes section" id="qualificacoes">
+        <div class="container">
+            <h2 class="section-title">Qualificações e Habilidades</h2>
+            
+            <div class="qualificacoes-grid">
+                <!-- Habilidades Pessoais -->
+                <div class="qualificacao-categoria">
+                    <h3><i class="fas fa-user-check"></i> Habilidades Pessoais</h3>
+                    
+                    <div class="habilidade-item">
+                        <span class="habilidade-nome">Trabalho em Equipe</span>
+                        <div class="habilidade-barra">
+                            <div class="habilidade-progresso" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="habilidade-item">
+                        <span class="habilidade-nome">Pontualidade</span>
+                        <div class="habilidade-barra">
+                            <div class="habilidade-progresso" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="habilidade-item">
+                        <span class="habilidade-nome">Comprometimento</span>
+                        <div class="habilidade-barra">
+                            <div class="habilidade-progresso" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="habilidade-item">
+                        <span class="habilidade-nome">Aprendizagem Rápida</span>
+                        <div class="habilidade-barra">
+                            <div class="habilidade-progresso" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conhecimentos Técnicos (básicos para primeiro emprego) -->
+                <div class="qualificacao-categoria">
+                    <h3><i class="fas fa-tools"></i> Conhecimentos</h3>
+                    
+                    <div class="conhecimento-tags">
+                        <span class="tag">Informática Básica</span>
+                        <span class="tag">Pacote Office (Word/Excel)</span>
+                        <span class="tag">Matemática Básica </span>
+                        <span class="tag">Fundamentos de TI </span>
+                        <span class="tag">Introdução a administração</span>
+                        <!-- <span class="tag">Organização e Limpeza (5S)</span> -->
+                    </div>
+                    
+                    <!-- <div class="cursos-complementares">
+                        <h4>Cursos Complementares:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Informática Básica - <div Digitron=""></div> (40h)</li>
+                            <li><i class="fas fa-check"></i> NR-10 Segurança em Eletricidade (se tiver)</li>
+                            <li><i class="fas fa-check"></i> Primeiros Socorros (se tiver)</li>
+                        </ul>
+                    </div> -->
+                </div>
+
+                <!-- Idiomas -->
+                <div class="qualificacao-categoria">
+                    <h3><i class="fas fa-language"></i> Idiomas</h3>
+                    
+                    <div class="idioma-item">
+                        <span class="idioma-nome">Português</span>
+                        <span class="idioma-nivel nativo">Nativo</span>
+                    </div>
+                    
+                    <!-- <div class="idioma-item">
+                        <span class="idioma-nome">Inglês</span>
+                        <span class="idioma-nivel basico">Básico (leitura)</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTATO ==================== -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            
+            <div class="contato-simples">
+                <div class="contato-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>(92) 98106-7373</p>
+                    <span class="contato-destaque">Ligação ou WhatsApp</span>
+                </div>
+
+                <div class="contato-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <p>(92) 99617-7228</p>
+                    <span class="contato-destaque">Ligação ou WhatsApp</span>
+                </div>
+
+                <div class="contato-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Localização</h3>
+                    <p>Cidade Nova 2, Manaus/Am</p>
+                    <span class="contato-destaque">Próximo ao Distrito</span>
+                </div>
+            </div>
+
+            <div class="cta-final">
+                <h3>Pronto para começar?</h3>
+                <p>Estou disponível para entrevistas presenciais ou por videochamada.</p>
+                <p class="horario-atendimento">Tenha acesso ao meu CurrÍculo em PDF, baixando pelo Botão
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Moisés Marques Pereira. Buscando oportunidade no mercado de trabalho.</p>
+            <p class="atualizacao">Currículo atualizado em: [02/2026]</p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
